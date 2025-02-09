@@ -24,7 +24,7 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 
 instruction = "Create a function to calculate the sum of a sequence of integers."
 input = "[1, 2, 3, 4, 5]"
-huggingface_model_name = "mervinpraison/Llama-3.1-8B-bnb-4bit-python"
+huggingface_model_name = "devopsnextgenx/Llama-3.1-8B-bnb-4bit-python"
 
 # 2. Before Training
 model, tokenizer = FastLanguageModel.from_pretrained(
